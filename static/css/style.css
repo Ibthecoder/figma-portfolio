@@ -1,0 +1,274 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+.wrapper-1{
+   overflow-x: hidden !important;
+   overflow: hidden !important;
+}
+.wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+:root{
+   ---love-fnt: 'Heebo', sans-serif;
+   ---bold-love: 'Heebo', sans-serif;
+}
+.love-fnt{
+   font-family: var(---love-fnt);
+}
+.bb-fnt{
+   font-family: var(---bold-love);
+}
+
+/* home-stylinhg-start */
+.home-text h1{
+   color: #212A3D;
+   font-weight: 700;
+   font-size: 44px;
+   /* width: 450px; */
+   line-height: 60px;
+   margin-top: 150px;
+   left: 148px;
+}
+.home-text p{
+   width: 497px;
+   font-size: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #212A3D;  
+}
+
+.home-img img{
+   border-radius: 50%; 
+   height: 243px;
+   width:243px ;
+   margin-top: 90px;
+   margin-left: 28%;
+}
+.home-btn{
+   color: #FFFFFF;
+   background-color: #FF6464;
+   /* text-align: center; */
+   height: 37px;
+   border-radius: 2px;
+   margin-top: 10px;
+   width: 31%;
+   border: 7px solid #FF6464;
+}
+/* home-stylinhg-end-*/
+
+/* Recent-post-start */
+
+.Recent-main-box{
+   background-color: #EDF7FA;
+   height: 496px;
+    margin-top: 61px !important; 
+    
+}
+
+.Recent-main-box h3{
+   color: #212A3D;
+   font-weight: 400;
+   font-size: 22px;
+   padding: 35px;
+   margin-left: 13%;
+}
+
+.Recent-box-1-{
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   height: 295px;
+   box-shadow:  0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+.Recent-box-1- h1{
+    font-size: 33px; 
+   font-weight: 700;
+   color: #212A3D;
+   padding-left: 39px;
+   padding-top: 24px;
+}
+.Recent-box-1- h4{
+   color: #212A3D;
+   font-weight: 400;
+   font-size: 19px;
+   padding-left: 39px;
+   margin-top: 34px;
+}
+.Recent-box-1- h2{
+   color: #212A3D;
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 34px;
+   padding-left: 60px;
+}
+.line{
+    height: 25px; 
+    width: 1px; 
+    margin-top: 31px;
+   margin-left: 39px;
+   background-color: #212A3D; 
+}
+.Recent-box-1- h5{
+   font-weight:400;
+   font-size: 16px;
+   width: 391px;
+   height: 117px;
+   padding-left: 19px;
+   margin-top: 25px;
+   /* gap: 3; */
+
+}
+
+/* second-box-styling -start*/
+.Recent-box-2-{
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   height: 295px;
+   box-shadow:  0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+.Recent-box-2- h1{
+   font-size: 33px; 
+   font-weight: 700;
+   color: #212A3D;
+   padding-left: 20px;
+   padding-top: 24px;
+}
+.Recent-box-2- h4{
+   color: #212A3D;
+   font-weight: 400;
+   font-size: 19px;
+   padding-left: 26px;
+   margin-top: 34px;
+}
+.Recent-box-2- h2{
+   color: #212A3D;
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 34px;
+   padding-left: 60px;
+}
+.line{
+   height: 35px;
+   width: 3px;
+   background-color: #212A3D;
+}
+.Recent-box-2- h5{
+   font-weight:400;
+   font-size: 16px;
+   width: 391px;
+   height: 117px;
+   padding-left: 19px;
+   margin-top: 25px;
+}
+.circle{
+   width: 70px;
+   height: 30px;
+   background-color: #212A3D;
+   border-radius: 25px;
+   margin-top: 9px !important;
+   /* margin-top: 19px; */
+   border: 3px solid #212A3D;
+}
+.circle-1{
+   width: 70px;
+   height: 30px;
+   background-color: #FF7C7C;
+   border-radius: 25px;
+   border: 3px solid #FF7C7C;
+}
+.icon-box{
+   /* width: 50px;
+   height: 50px;
+   background-color: red;
+   border: 3px solid #EDF7FA;
+   border-radius: 25px; */
+   margin: auto;
+
+}
+.blog-home{
+   color: red !important;
+}
+.work-home{
+   color: red !important;
+}
+/* second-box-styling-end*/
+
+/* Recent-post-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media-Query-home-start*/
+ 
+/* @media screen and (max-width:991px) {
+   .home-img img{
+      margin-top: -15px;
+      width: 260px;
+   }
+
+   .home-text h1{
+     margin-top: 45px;
+      width: 580px;
+      padding: 58px;
+   }
+
+   .home-text p{
+      width: 580px;
+      padding: 12px;
+   } 
+  
+}  */
+
+
+
+@media screen and (max-width:567px){
+
+   .home-img img{
+    margin-top: 35px;
+     width: 230px; 
+     margin: 61px;
+   } *
+
+   .home-text h1{
+     margin-top: -15px;
+      
+   }
+
+   /* .home-text p{
+      width: 20px;
+      padding: 12px;
+      margin-top: 0;
+      margin-bottom: -540px;
+   }   */
+   /* .home-btn{
+      width: 230px;
+      margin-top: 560px;
+      margin-left: 51px;
+
+   } */
+
+}  
+
+
+
+
